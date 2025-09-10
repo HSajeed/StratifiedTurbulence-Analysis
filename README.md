@@ -15,34 +15,41 @@ directly relevant to PhD research on **simulations of strongly stratified turbul
 
 ---
 
+
+## Installation
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/StratifiedTurbulence-Analysis.git
+cd StratifiedTurbulence-Analysis
+pip install -r requirements.txt
+```
+
+
 ## Usage
-- Download DNS Data - python src/data_download.py
-- Compute Energy Spectrum - python src/spectra.py --input examples/data_sample.h5 --output examples/figures/spectrum.png
-- Run SPOD - python src/spod_analysis.py --input examples/data_sample.h5 --outdir results/
+- Download DNS Data
+  ```bash
+  python src/data_download.py
+  ```
+- Compute Energy Spectrum
+  ```bash
+  python src/spectra.py --input examples/data_sample.h5 --output examples/figures/spectrum.png
+  ```
+- Run SPOD
+  ```bash
+  python src/spod_analysis.py --input examples/data_sample.h5 --outdir results/
+  ```
+  ---
+
+### Scientific Context
+
+Stratified turbulence appears in geophysical flows, aerospace applications, and energy systems. DNS provides high-fidelity data, but spectral and modal analyses are key to uncovering physical mechanism.
 
 ---
 
-## Scientific Context
 
-Stratified turbulence appears in geophysical flows, aerospace applications, and energy systems.
+### Relevant references:
 
-DNS provides high-fidelity data, but spectral and modal analyses are key to uncovering physical mechanisms.
-
-This project demonstrates practical ability to:
-
-- Work with DNS data,
-
-- Apply spectral analysis and SPOD,
-
-- Present results in a reproducible open-source format.
-
----
-
-
-## Relevant references:
-
-1. Brethouwer, G., et al. (2007). Scaling analysis and simulation of strongly stratified turbulent flows. J. Fluid Mech.
-2. He, P., & Basu, S. (2015). DNS of intermittent turbulence in stable stratification. Boundary-Layer Meteorology.
-3. Chini, G.P., et al. (2021). Reduced modeling of strongly stratified turbulence. Annu. Rev. Fluid Mech.
-
-
+- Brethouwer, G., et al. (2007). Scaling analysis and simulation of strongly stratified turbulent flows. J. Fluid Mech.
+- He, P., & Basu, S. (2015). DNS of intermittent turbulence in stable stratification. Boundary-Layer Meteorology.
+- Chini, G.P., et al. (2021). Reduced modeling of strongly stratified turbulence. Annu. Rev. Fluid Mech.
