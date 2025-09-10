@@ -20,6 +20,7 @@ directly relevant to PhD research on **simulations of strongly stratified turbul
 - Compute Energy Spectrum - python src/spectra.py --input examples/data_sample.h5 --output examples/figures/spectrum.png
 - Run SPOD - python src/spod_analysis.py --input examples/data_sample.h5 --outdir results/
 
+---
 
 ## Scientific Context
 
@@ -34,6 +35,9 @@ This project demonstrates practical ability to:
 - Apply spectral analysis and SPOD,
 
 - Present results in a reproducible open-source format.
+
+---
+
 
 ## Relevant references:
 
