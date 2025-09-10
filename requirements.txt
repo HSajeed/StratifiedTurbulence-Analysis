@@ -1,7 +1,9 @@
 numpy
 scipy
-matplotlib
 h5py
-xarray
+matplotlib
+pyspod==2.0.0
+# Optional, only if using JHTDB locally
+pyJHTDB
+requests
 tqdm
-pyspod
